@@ -1,0 +1,111 @@
+body {
+  background-color: white;
+  text-align: center;
+}
+.app {
+  max-width: 1500px;
+  margin: 0;
+  padding: 50px;
+  background-color: white;
+}
+.header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.header h1 {
+  margin-bottom: 10px;
+  color: rgb(39, 4, 39);
+}
+.header p {
+  color: gray;
+}
+.container {
+  display: flex;
+  gap: 30px;
+}
+.add-expense {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 3px 5px rgb(32, 7, 32);
+  max-width: 400px;
+  color: black;
+}
+
+.add-expense p {
+  margin-bottom: 25px;
+  color: grey;
+  font-size: 16px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: rgb(94, 90, 90);
+}
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.submit-btn {
+  background-color: aqua;
+  color: white;
+  border: none;
+  padding: 12px 15px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.4s;
+  font-size: 12px;
+}
+.submit-btn hover {
+  background-color: blue;
+}
+.expense list {
+  flex: 2;
+}
+.search-box {
+  margin-bottom: 20px;
+}
+.search-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid antiquewhite;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.table--container {
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+
+}
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 2px solid snow;
+  color: black;
+}
+th {
+  background-color: aliceblue;
+  font-weight: bold;
+  color: rgb(58, 56, 56);
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+th:hover {
+  background-color: azure;
+}
+tr:hover {
+  background-color: beige;
+}
